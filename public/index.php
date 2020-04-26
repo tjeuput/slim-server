@@ -17,6 +17,7 @@ $connection = require __DIR__ . '/../app/connection.php';
 $connection($container);
 
 $logger = require __DIR__ . '/../app/logger.php';
+
 $logger($container);
 
 // Set Container on app
